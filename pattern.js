@@ -1,6 +1,6 @@
-let prompt = require("prompt-sync")();
-
-let n = Number(prompt("enter the number "));
+// let prompt = require("prompt-sync")();
+//
+// let n = Number(prompt("enter the number "));
 
 // base pattern
 // for(let i = 1; i <= n; i++){
@@ -91,13 +91,13 @@ let n = Number(prompt("enter the number "));
 //    console.log()
 // }
 
-for(let i = 1; i <= n; i++){
-   for(let j= 1; j <=n*2 - 1; j++){
-    if (i == j || i + j==n*2) {
-        process.stdout.write("* ")
-    }
-     else process.stdout.write("  ")
-   }
-
-   console.log()
-}
+// for(let i = 1; i <= n; i++){
+//    for(let j= 1; j <=n*2 - 1; j++){
+//     if (i == j || i + j==n*2) {
+//         process.stdout.write("* ")
+//     }
+//      else process.stdout.write("  ")
+//    }
+//
+//    console.log()
+// }
